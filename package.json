@@ -35,7 +35,9 @@
   ],
   "devDependencies": {
     "jest-dom": "2.1.1",
-    "react-testing-library": "5.3.0"
+    "moxios": "0.4.0",
+    "react-testing-library": "5.3.0",
+    "redux-mock-store": "1.5.3"
   },
   "proxy": "https://woffu-dev.azurewebsites.net/api/v1/"
 }
