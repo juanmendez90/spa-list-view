@@ -1,8 +1,9 @@
 import React from 'react';
 import { Pagination, PaginationItem, PaginationLink } from 'reactstrap';
 import { range } from 'lodash';
+import Proptypes from 'prop-types';
 
-export default class CustomPagination extends React.Component {
+class CustomPagination extends React.Component {
   goToPage = (page) => this.props.goToPage(page);
 
   goNext = () => {
@@ -41,3 +42,11 @@ export default class CustomPagination extends React.Component {
     );
   }
 }
+
+CustomPagination.propTypes = {
+  max: Proptypes.number.isRequired,
+  goToPage: Proptypes.func.isRequired,
+  currentPage: Proptypes.number.isRequired,
+}
+
+export default CustomPagination;
