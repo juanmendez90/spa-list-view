@@ -11,7 +11,11 @@ $spacers: (
 );
 
 * {
-  color: #717c8b,
+  color: #717c8b;
+};
+
+.right-3 {
+  right: $spacer;
 };
 
 @import '~bootstrap/scss/bootstrap.scss';

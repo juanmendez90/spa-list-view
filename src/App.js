@@ -1,8 +1,15 @@
 import React, { Component } from 'react';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faCalendar } from '@fortawesome/free-regular-svg-icons';
+
 import Header from 'components/Header';
 import Example from 'containers/Users';
 import { HEADER_TITLE, HEADER_SUBTITLE } from 'constants/index';
+
 import './App.css';
+
+
+library.add(faCalendar);
 
 class App extends Component {
   render() {
