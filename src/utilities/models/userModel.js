@@ -1,7 +1,7 @@
 import Proptypes from 'prop-types';
 
 export default Proptypes.shape({
-  UserKey: Proptypes.string,
+  UserKey: Proptypes.oneOfType([Proptypes.number, Proptypes.string]),
   ImageURL: Proptypes.string,
   FirstName: Proptypes.string,
   LastName: Proptypes.string,
