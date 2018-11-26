@@ -1,7 +1,17 @@
+$spacer: 1rem !default;
+
 $theme-colors: (
   "primary": #4480db,
 );
 
 $body-bg: #f3f2f7;
+
+$spacers: (
+  8: ($spacer * 19),
+);
+
+* {
+  color: #717c8b,
+};
 
 @import '~bootstrap/scss/bootstrap.scss';

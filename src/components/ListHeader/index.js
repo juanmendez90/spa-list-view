@@ -4,7 +4,7 @@ import { CardHeader } from 'reactstrap';
 import { LIST_HEADER } from 'constants/index'
 
 const ListHeader = ({ title }) => (
-  <CardHeader data-testid={LIST_HEADER}>{title}</CardHeader>
+  <CardHeader className="bg-white font-weight-bold" data-testid={LIST_HEADER}>{title}</CardHeader>
 );
 
 export default ListHeader;

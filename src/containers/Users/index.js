@@ -6,7 +6,7 @@ import { USERS_CONTAINER, USERS_TITLE } from 'constants/index';
 
 const Users = (props) => {
   return (
-    <Card data-testid={USERS_CONTAINER}>
+    <Card className="flex-fill " data-testid={USERS_CONTAINER}>
       <ListHeader title={USERS_TITLE}/>
       <CardBody>
         <CardTitle>Special Title Treatment</CardTitle>
