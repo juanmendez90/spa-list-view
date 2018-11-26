@@ -1,12 +1,12 @@
 import React from 'react';
 import { Card, CardFooter, CardBody, Table } from 'reactstrap';
 import ListHeader from 'components/ListHeader'
-import { USERS_CONTAINER, USERS_TITLE, FILTER_LABEL, USERS_HEADERS } from 'constants/index';
+import { USERS_CONTAINER, USERS_TITLE, FILTER_LABEL, USERS_HEADERS } from 'utilities/constants/index';
 import DateFilter from 'components/DateFilter';
 import TableHeader from 'components/TableHeader';
 import UserRow from 'components/UserRow';
 import CustomPagination from 'components/Pagination';
-import users from 'mocks/users';
+import users from 'utilities/mocks/users';
 import { getUsers } from "api/index";
 
 class Users extends React.PureComponent {

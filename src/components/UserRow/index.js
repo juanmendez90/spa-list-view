@@ -1,8 +1,8 @@
 import React from 'react';
 import Proptypes from 'prop-types';
 import { Progress} from 'reactstrap';
-import { USER_ROW } from 'constants/index';
-import userModel from 'models/userModel';
+import { USER_ROW } from 'utilities/constants/index';
+import userModel from 'utilities/models/userModel';
 import DefaultAvatar from 'components/DefaultAvatar';
 import styles from './styles.module.scss';
 

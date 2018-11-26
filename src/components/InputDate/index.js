@@ -3,7 +3,7 @@ import { InputGroup, Input } from 'reactstrap';
 import Proptypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { INPUT_DATE } from 'constants/index';
+import { INPUT_DATE } from 'utilities/constants/index';
 
 const InputDate = ({ placeholder }) => (
   <InputGroup className="px-1" data-testid={INPUT_DATE}>

@@ -4,10 +4,7 @@ import { faCalendar } from '@fortawesome/free-regular-svg-icons';
 
 import Header from 'components/Header';
 import Example from 'containers/Users';
-import { HEADER_TITLE, HEADER_SUBTITLE } from 'constants/index';
-
-import './App.css';
-
+import { HEADER_TITLE, HEADER_SUBTITLE } from 'utilities/constants/index';
 
 library.add(faCalendar);
 

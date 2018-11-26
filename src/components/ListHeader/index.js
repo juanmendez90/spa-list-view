@@ -1,7 +1,7 @@
 import React from 'react';
 import Proptypes from 'prop-types';
 import { CardHeader } from 'reactstrap';
-import { LIST_HEADER } from 'constants/index';
+import { LIST_HEADER } from 'utilities/constants/index';
 
 const ListHeader = ({ title, children }) => (
   <CardHeader className="bg-white border-bottom-0" data-testid={LIST_HEADER}>

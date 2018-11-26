@@ -1,7 +1,7 @@
 import React from 'react';
 import Proptypes from 'prop-types';
 import { Navbar } from 'reactstrap';
-import { MAIN_HEADER } from 'constants/index';
+import { MAIN_HEADER } from 'utilities/constants/index';
 
 
 const Header = ({ title, subtitle }) => (

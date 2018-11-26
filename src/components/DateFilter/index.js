@@ -2,7 +2,7 @@ import React from 'react';
 import Proptypes from 'prop-types';
 import { Form } from 'reactstrap';
 
-import { DATE_FILTER, DATE_TO, DATE_FROM } from 'constants/index';
+import { DATE_FILTER, DATE_TO, DATE_FROM } from 'utilities/constants/index';
 import InputDate from 'components/InputDate';
 
 const DateFilter = ({ label }) => (
