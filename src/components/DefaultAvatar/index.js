@@ -7,4 +7,9 @@ const DefaultAvatar = ({ size, text }) => (
   </div>
 );
 
+DefaultAvatar.propTypes = {
+  size: Proptypes.string.isRequired,
+  text: Proptypes.string.isRequired,
+};
+
 export default DefaultAvatar;
