@@ -7,11 +7,13 @@ import TableHeader from 'components/TableHeader';
 import UserRow from 'components/UserRow';
 import CustomPagination from 'components/Pagination';
 import users from 'mocks/users';
+import { getUsers } from "api/index";
 
 class Users extends React.PureComponent {
   renderRow = () => users.map(item => <UserRow key={item.UserKey} user={item} />)
 
   render() {
+    getUsers();
     return (
       <Card className="flex-fill " data-testid={USERS_CONTAINER}>
         <ListHeader title={USERS_TITLE}>
